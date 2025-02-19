@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">VoloOK</string>
+    <!--FRAGMENT TITLES-->
+    <string name="flights_name">Voli</string>
+    <string name="bookings_name">Prenotazioni</string>
+    <string name="tickets_name">Biglietti</string>
+    <string name="account_name">Account</string>
+    <string name="available_flights_name">Voli disponibili</string>
+    <string name="ticket_details_name">Biglietto</string>
+    <string name="booking_details_name">Prenotazione</string>
+    <!--LOGIN ACTIVITY-->
+    <string name="login_prompt_email">Indirizzo email</string>
+    <string name="login_prompt_password">Password</string>
+    <string name="login_checkbox_remember_me">Ricordami</string>
+    <string name="login_sign_up">Registrati</string>
+    <string name="login_sign_in">Accedi</string>
+    <string name="login_sign_in_fingerprint">Accedi con impronta</string>
+    <string name="login_wrong_credentials">Credenziali errate!</string>
+    <string name="login_invalid_email_format">Formato email non valido!</string>
+    <string name="login_signup_success">Registrazione effettuata!</string>
+    <string name="login_signup_failed">Esiste già un account associato a questa email!</string>
+
+    <!--SCANNER QR ACTIVITY-->
+    <string name="scanner_qr_valid">VALIDO</string>
+    <string name="scanner_qr_not_valid">NON VALIDO</string>
+    <!--ACCOUNT FRAGMENT-->
+    <string name="account_prompt_name">Nome</string>
+    <string name="account_prompt_surname">Cognome</string>
+    <string name="account_prompt_birth_date">Data di nascita</string>
+    <string name="account_prompt_customer_code">Codice cliente</string>
+    <string name="account_prompt_fidelity_points">Punti fedeltà</string>
+    <string name="account_logout">Logout</string>
+    <string name="account_delete">Elimina</string>
+    <string name="account_save">Salva</string>
+    <string name="account_checkbox_join_fidelity_program">Aderisci a programma fedeltà</string>
+    <string name="account_updated">Profilo aggiornato!</string>
+    <!--FLIGHTS FRAGMENT-->
+    <string name="flights_prompt_from">Da</string>
+    <string name="flights_prompt_to">A</string>
+    <string name="flights_prompt_departure_date">Data di partenza</string>
+    <string name="flights_prompt_fare">Tariffa</string>
+    <string name="flights_prompt_hint_from">Inserisci partenza</string>
+    <string name="flights_prompt_hint_to">Inserisci destinazione</string>
+    <string name="flights_prompt_hint_departure_date">Inserisci data di partenza</string>
+    <string name="flights_prompt_hint_fare">Inserisci tariffa</string>
+    <string name="flights_button_search_flights">Cerca Voli</string>
+    <!--TICKET DETAILS FRAGMENT-->
+    <string name="ticket_details_from">From</string>
+    <string name="ticket_details_to">To</string>
+    <string name="ticket_details_passenger">Passenger</string>
+    <string name="ticket_details_flight_date">Date</string>
+    <string name="ticket_details_buy">Acquista</string>
+    <!--BOOKING DETAILS FRAGMENT -->
+    <string name="booking_details_book_now">Prenota</string>
+    <string name="booking_details_passenger_name">Name</string>
+    <string name="booking_details_passenger_name_hint">Nome passeggero</string>
+    <string name="booking_details_passenger_surname">Surname</string>
+    <string name="booking_details_passenger_surname_hint">Cognome passeggero</string>
+    <string name="booking_details_price">Prezzo</string>
+    <!--AVAILABLE FLIGHTS FRAGMENT-->
+    <string name="available_flights_no_flights_found">Nessun volo trovato!</string>
+    <string name="available_flights_ticket_booked">Prenotazione effettuata!</string>
+    <string name="available_flights_ticket_purchased">Biglietto acquistato!</string>
+    <!--BOOKINGS FRAGMENT -->
+    <string name="bookings_no_bookings_found">Nessuna prenotazione!</string>
+    <!--TICKETS FRAGMENT-->
+    <string name="tickets_no_tickets_found">Nessun biglietto!</string>
+    <!--GENERIC-->
+    <string name="server_error">Impossibile raggiungere il server!</string>
+    <string name="fill_in_all_field_msg">Compila tutti i campi!</string>
+    <string name="invalid_past_date_msg">La data non può essere passata!</string>
+    <string name="invalid_date_msg">Data non valida!</string>
+    <string name="an_error_occurred">Si è verificato un errore!</string>
+    <string name="operation_performed">Operazione effettuata!</string>
+
+</resources>

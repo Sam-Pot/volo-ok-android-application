@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_flights">
+
+    <fragment
+        android:id="@+id/navigation_flights"
+        android:name="com.example.volook.home.flights.FlightsFragment"
+        android:label="@string/flights_name"
+        tools:layout="@layout/fragment_flights" >
+        <action
+            android:id="@+id/action_flights_availableFlights"
+            app:destination="@id/navigation_available_flights" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.example.volook.home.tickets.BookingsFragment"
+        android:label="@string/bookings_name"
+        tools:layout="@layout/fragment_bookings">
+        <action
+            android:id="@+id/action_bookings_ticketDetails"
+            app:destination="@id/navigation_ticket_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_tickets"
+        android:name="com.example.volook.home.tickets.TicketsFragment"
+        android:label="@string/tickets_name"
+        tools:layout="@layout/fragment_tickets">
+        <action
+            android:id="@+id/action_tickets_ticketDetails"
+            app:destination="@id/navigation_booking_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.volook.home.account.AccountFragment"
+        android:label="@string/account_name"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/navigation_available_flights"
+        android:name="com.example.volook.home.flights.AvailableFlightsFragment"
+        android:label="@string/available_flights_name"
+        tools:layout="@layout/fragment_available_flights"/>
+
+    <fragment
+        android:id="@+id/navigation_ticket_detail"
+        android:name="com.example.volook.home.ticketDetails.TicketDetailsFragment"
+        android:label="@string/ticket_details_name"
+        tools:layout="@layout/fragment_ticket_details"/>
+
+    <fragment
+        android:id="@+id/navigation_booking_detail"
+        android:name="com.example.volook.home.flightDetails.FlightDetailsFragment"
+        android:label="@string/booking_details_name"
+        tools:layout="@layout/fragment_ticket_details"/>
+
+</navigation>
